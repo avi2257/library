@@ -8,7 +8,7 @@
                 <v-text-field label="Username" v-model="username"></v-text-field>
                 <v-text-field label="password" type="password" v-model="password"></v-text-field>
                 <v-btn class="base-inverted" block @click="authenticate()">Login</v-btn>
-            </v-col>
+            </v-col>    
         </v-row>
         <h1>Login page</h1>
 
